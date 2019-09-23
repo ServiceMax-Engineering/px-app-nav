@@ -95,6 +95,11 @@ $px-app-nav-subitem-accent-color--parent-collapsed-selected: var(--px-app-nav-su
   width: 2px;
   height: 100%;
 }
+
+:host-context([dir='rtl']):host([collapsed][parent-selected]):before {
+  right: 0;
+}
+
 $px-app-nav-subitem-background-color--parent-collapsed-hover: var(--px-app-nav-subitem-background-color--parent-collapsed-hover, lightgray);
 :host([collapsed][parent-selected]:hover) {
   background-color: $px-app-nav-subitem-background-color--parent-collapsed-hover;

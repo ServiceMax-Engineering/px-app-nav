@@ -1,3 +1,7 @@
+v3.1.3
+=================
+* Fix item selected line position issue when the direction is RTL
+
 v3.1.2
 ==================
 * Reverse the icons when the direction is RTL
